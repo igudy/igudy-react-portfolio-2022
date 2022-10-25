@@ -52,8 +52,8 @@ const About = () => {
             web-based applications to deliver exceptional customer experiences.
             Passion for responsive web application design, usability and a firm
             believer in the mobile-first approach. Proficient in HTML/CSS,
-            Bootstrap, Tailwind, JavaScript, React and state management library
-            Redux. Possess working knowledge of Adobe Photoshop and Illustrator.
+            Bootstrap, Tailwind, JavaScript, React, state management library
+            Redux and other technologies. Possess working knowledge of Adobe Photoshop and Illustrator.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
