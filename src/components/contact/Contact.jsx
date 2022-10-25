@@ -12,13 +12,15 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ev7rpm1', 'template_8ftod8d', form.current, 'Ncak2SepAqXcjB506')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset();
+    emailjs.sendForm('service_iecm02n', 'template_zokpahf', form.current, 'HH9WM6g8bCsZSVgWM')
+    e.target.reset() 
+  
+  
+  // .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
   };
 
   return (
@@ -31,20 +33,24 @@ const Contact = () => {
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>fernandow.and@gmail.com</h5>
-            <a href="mailto:fernandow.and@gmail.com">Send a message</a>
+            <h5>goodnessigunma1@gmail.com</h5>
+            <a href='mailto:goodnessigunma1@gmail.com' target="_blank">Send a Message</a>
           </article>
+
+
           <article className='contact__option'>
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>fernandow.and</h5>
-            <a href="https://m.me/fernandow.and" target="_blank" rel='noreferrer'>Send a message</a>
+            <h5>Igunma Goodness</h5>
+            <a href='https://m.me/goodness.igudy' target="_blank">Send a Message</a>
           </article>
+
+          
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+55123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone+5512996721515" target="_blank" rel='noreferrer'>Send a message</a>
+            <h5>+234-81-082-51-426</h5>
+            <a href='https://wa.link/jnvn9r' target="_blank">Send a Message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}

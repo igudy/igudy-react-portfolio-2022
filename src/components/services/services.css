@@ -35,6 +35,10 @@
   padding: 2rem;
 }
 
+.service__white {
+  color: white;
+}
+
 .service__list li {
   display: flex;
   gap: 1rem;
