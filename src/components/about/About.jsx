@@ -50,6 +50,10 @@ const About = () => {
             providing high-impact web solutions for diverse industry
             organizations. Skilled in designing, developing and testing multiple
             web-based applications to deliver exceptional customer experiences.
+            Passion for responsive web application design, usability and a firm
+            believer in the mobile-first approach. Proficient in HTML/CSS,
+            Bootstrap, Tailwind, JavaScript, React and state management library
+            Redux. Possess working knowledge of Adobe Photoshop and Illustrator.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
