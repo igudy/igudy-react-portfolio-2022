@@ -5,10 +5,39 @@ import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.jpg";
-// import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/portfolio7.png'
+import IMG8 from '../../assets/portfolio8.png'
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 const data = [
+  {
+    id: 6,
+    image: IMG6,
+    title: "QUICKTELLER HOMES",
+    github: "#",
+    demo: "https://homes.quickteller.com",
+    description:
+      "Quickteller Homes is a platform designed to simplify the process of finding and buying homes in Nigeria. It provides a seamless experience for individuals and families seeking to buy or rent properties.",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "IGSHOP E-COMMERCE WEB APPLICATION",
+    github: "https://github.com/igudy/igshop-react-e-commerce-redux",
+    demo: "https://igshop.vercel.app/",
+    description:
+      "E-commerce web app built with React, Redux Toolkit, and Firebase for authentication and storage.",
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "EVOGYM",
+    github: "https://github.com/igudy/gym-typescript",
+    demo: "https://evogym-bice.vercel.app/",
+    description:
+      "Landing page for a gym built with React and TypeScript,Framer Motion for animations. Styling is done with Tailwind, providing a clean and responsive layout. ",
+  },
   {
     id: 1,
     image: IMG1,

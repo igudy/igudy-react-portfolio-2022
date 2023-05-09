@@ -23,13 +23,13 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>4+ Years Working</small>
             </article>
 
             <article className="about__card">
               <AiFillGithub className="about__icon" />
               <h5>Github Repos</h5>
-              <small>30+ Repositories</small>
+              <small>50+ Repositories</small>
             </article>
 
             <article className="about__card">
@@ -41,19 +41,12 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p>
-            Creative Front-End Engineer with over 2 years of experience
-            providing high-impact web solutions for diverse industry
-            organizations. Skilled in designing, developing and testing multiple
-            web-based applications to deliver exceptional customer experiences.
-            Passion for responsive web application design, usability and a firm
-            believer in the mobile-first approach. Proficient in HTML/CSS,
-            Bootstrap, Tailwind, JavaScript, React, state management library
-            Redux and other technologies. Possess working knowledge of Adobe Photoshop and Illustrator.
+Creative software engineer with a strong focus on developing visually appealing and efficient web applications that drive user growth and engagement. Highly skilled in translating designs into functional code and collaborating on solutions with Product Owners, Quality Assurance (QA) Engineers, and Server-Side teams to offer the best user experience to build higher customer lifetime value.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

@@ -5,6 +5,9 @@ import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Contact = () => {
   const form = useRef();
@@ -13,14 +16,16 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_iecm02n', 'template_zokpahf', form.current, 'HH9WM6g8bCsZSVgWM')
-    e.target.reset() 
-  
-  
-  // .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
+    e.target.reset()
+
+    toast.success('Message sent!', {
+    position: 'top-right',
+    autoClose: 3000,
+    hideProgressBar: true,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+  });
   };
 
   return (
@@ -45,7 +50,7 @@ const Contact = () => {
             <a href='https://m.me/goodness.igudy' target="_blank">Send a Message</a>
           </article>
 
-          
+
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
