@@ -5,9 +5,9 @@ import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.jpg";
-import IMG6 from '../../assets/portfolio6.png'
-import IMG7 from '../../assets/portfolio7.png'
-import IMG8 from '../../assets/portfolio8.png'
+import IMG6 from '../../assets/portfolio6.jpg';
+import IMG7 from '../../assets/portfolio7.jpg';
+import IMG8 from '../../assets/portfolio8.jpg';
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 const data = [
