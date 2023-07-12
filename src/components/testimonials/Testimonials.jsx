@@ -8,9 +8,7 @@ import AVTR4 from '../../assets/avatar4.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';

@@ -1,13 +1,13 @@
-import React from "react";
-import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.jpg";
-import IMG6 from '../../assets/portfolio6.jpg';
-import IMG7 from '../../assets/portfolio7.jpg';
-import IMG8 from '../../assets/portfolio8.jpg';
+import React from "react"
+import "./portfolio.css"
+import IMG1 from "../../assets/portfolio1.jpg"
+import IMG2 from "../../assets/portfolio2.jpg"
+import IMG3 from "../../assets/portfolio3.jpg"
+import IMG4 from "../../assets/portfolio4.jpg"
+import IMG5 from "../../assets/portfolio5.jpg"
+import IMG6 from "../../assets/portfolio6.jpg"
+import IMG7 from "../../assets/portfolio7.jpg"
+import IMG8 from "../../assets/portfolio8.jpg"
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 const data = [
@@ -65,23 +65,23 @@ const data = [
     description:
       "This project was built with Html, CSS, JavaScript, React, React Icons and Javascript libraries - SwiperJS(For Carousels/slides), EmailJs.",
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: "BURGER BUILDER WEB APP WITH REACT",
-    github: "https://github.com/igudy/burger-builder-react",
-    demo: "https://react-my-burger-40b37.firebaseapp.com/",
-    description:
-      "React and Redux were used to build a burger builder application.The app used suitable authentication, validation, and routing implementation using React Router.",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "GRAPHIC DESIGN LANDING PAGE",
-    github: "https://github.com/igudy/graphics-design-landing-page",
-    demo: "https://graphics-design-landing-page.vercel.app/",
-    description: "Graphic Design Landing Page built with HTML5, CSS3, Javascript, Bootstrap 4 Framework and Smooth Scroll Library for Scrolling through the Landing Page."
-  },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: "BURGER BUILDER WEB APP WITH REACT",
+  //   github: "https://github.com/igudy/burger-builder-react",
+  //   demo: "https://react-my-burger-40b37.firebaseapp.com/",
+  //   description:
+  //     "React and Redux were used to build a burger builder application.The app used suitable authentication, validation, and routing implementation using React Router.",
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: "GRAPHIC DESIGN LANDING PAGE",
+  //   github: "https://github.com/igudy/graphics-design-landing-page",
+  //   demo: "https://graphics-design-landing-page.vercel.app/",
+  //   description: "Graphic Design Landing Page built with HTML5, CSS3, Javascript, Bootstrap 4 Framework and Smooth Scroll Library for Scrolling through the Landing Page."
+  // },
   // {
   //   id: 6,
   //   image: IMG6,
@@ -89,7 +89,7 @@ const data = [
   //   github: "https://github.com",
   //   demo: "https://dribbble.com/Alien_pixels"
   // },
-];
+]
 
 const Portfolio = () => {
   return (
@@ -125,11 +125,11 @@ const Portfolio = () => {
                 </a>
               </div>
             </article>
-          );
+          )
         })}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio

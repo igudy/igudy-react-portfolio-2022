@@ -1,10 +1,10 @@
-import React from "react";
-import "./about.css";
-import ME from "../../assets/me_studio.png";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
-import { AiFillGithub } from "react-icons/ai";
+import React from "react"
+import "./about.css"
+import ME from "../../assets/me_studio.png"
+import { FaAward } from "react-icons/fa"
+import { FiUsers } from "react-icons/fi"
+import { VscFolderLibrary } from "react-icons/vsc"
+import { AiFillGithub } from "react-icons/ai"
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>4+ Years Working</small>
+              <small>3+ Years Working</small>
             </article>
 
             <article className="about__card">
@@ -35,7 +35,7 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>20+ Worldwide</small>
+              <small>10+ Worldwide</small>
             </article>
 
             <article className="about__card">
@@ -46,7 +46,12 @@ const About = () => {
           </div>
 
           <p>
-Creative software engineer with a strong focus on developing visually appealing and efficient web applications that drive user growth and engagement. Highly skilled in translating designs into functional code and collaborating on solutions with Product Owners, Quality Assurance (QA) Engineers, and Server-Side teams to offer the best user experience to build higher customer lifetime value.
+            Creative software engineer who strongly focuses on developing
+            visually appealing and efficient web applications that drive user
+            growth and engagement. Highly skilled in translating designs into
+            functional code, and collaborating on solutions with the product and
+            server-side teams to offer the best user experience and build higher
+            customer lifetime value.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
@@ -54,7 +59,7 @@ Creative software engineer with a strong focus on developing visually appealing 
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

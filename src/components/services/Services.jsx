@@ -1,6 +1,6 @@
-import React from "react";
-import "./services.css";
-import { BiCheck } from "react-icons/bi";
+import React from "react"
+import "./services.css"
+import { BiCheck } from "react-icons/bi"
 
 // This is later changed to work experience
 const Services = () => {
@@ -14,87 +14,76 @@ const Services = () => {
           <div className="service__head">
             <h3>
               SOFTWARE ENGINEER <br></br>
-              <span className="service__white">INTERSWITCH <br></br>(May. 2022 - Present)</span>
+              <span className="service__white">
+                INTERSWITCH <br></br>(May. 2022 - Present)
+              </span>
             </h3>
           </div>
 
           <ul className="service__list">
             <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Worked on existing React codebase to add new features using both
+                - Applied pragmatism and best practices in software engineering,
+                delivering tasks on time, and with excellent quality.
+              </p>
+            </li>
+            <li>
+              <p>
+                - Experience with Rest APIs to fetch data and manage state with
+                Redux Toolkit.
+              </p>
+            </li>
+            <li>
+              <p>
+                - Actively participated in Agile development processes (SCRUM,
+                KANBAN, JIRA), including sprint planning, daily stand-ups, and
+                retrospectives.
+              </p>
+            </li>
+            <li>
+              <p>
+                - Worked on existing React codebase to add new features using
                 functional and class-based components.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p>Ensured cross-platform optimization for mobile phones.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Designed User Interactions and responsiveness for web pages.
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                Support maintenance programming development for web pages and
-                web applications.
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                Collaborated with product team members to implement new feature
-                developments.
+                - Writing unit and functional tests with RTL(React Testing
+                Library) and Jest, thereby continually improving the web
+                application.
               </p>
             </li>
           </ul>
         </article>
-        {/* END OF UI/UX */}
 
         <article className="service">
           <div className="service__head">
             <h3>
-              FRONT-END ENGINEER <br></br>
-              <span className="service__white">SYBORF BUSINESS VENTURE <br></br>(Oct. 2021 - Feb. 2022)</span>
+              JUNIOR SOFTWARE ENGINEER <br></br>
+              <span className="service__white">
+                SYBORF BUSINESS VENTURE <br></br>(Oct. 2021 - JAN. 2022)
+              </span>
             </h3>
           </div>
 
           <ul className="service__list">
             <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Work with HTML,CSS, Bootstrap and JavaScript for building
-                responsive website for a graphic design and web development
-                masterclass.
+                - Assisted in the creation of engaging user interfaces, ensuring
+                consistency in design, layout, and functionality across
+                different browsers and devices.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p>Worked with version control software - Git/Github.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Manage website development projects from initial design through
-                completion, optimizing all cross-browser and multi-platform
-                compatibility.
+                - Performed code reviews to encourage quality, reusable, and
+                more efficient code.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Implemented web applications pages from concept through
-                deployment.
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                Used Wordpress builder like elementor to build out content
-                layouts, headers and footer.
+                - Translated Figma designs and prototypes into pixel-perfect
+                user interfaces.
               </p>
             </li>
           </ul>
@@ -104,7 +93,7 @@ const Services = () => {
         <article className="service">
           <div className="service__head">
             <h3>
-              FRONT-END ENGINEER INTERN <br></br>
+              SOFTWARE ENGINEER INTERN <br></br>
               <span className="service__white">
                 CODEZOOMERS NIG. LTD. <br></br> (Aug. 2019 - Jan. 2020)
               </span>
@@ -113,32 +102,23 @@ const Services = () => {
 
           <ul className="service__list">
             <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Built static front end pages with front end technologies like
-                Html, CSS, CSS Flexbox, CSS Grid, Bootstrap and JavaScript.
+                - Developed strong problem-solving abilities, troubleshooting
+                and debugging issues to ensure smooth website functionality.
               </p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p>Built Single Page Applications (SPA's) with AngularJs.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
               <p>
-                Designed User Interactions and responsiveness for web pages.
+                - Developed proficiency in version control systems, such as Git,
+                for efficient collaboration and code management.
               </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Worked with version control software - Git /Github.</p>
             </li>
           </ul>
         </article>
         {/* END OF CONTENT CREATION */}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

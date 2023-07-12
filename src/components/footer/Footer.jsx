@@ -1,8 +1,8 @@
-import React from "react";
-import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+import React from "react"
+import "./footer.css"
+import { FaFacebookF } from "react-icons/fa"
+import { FiInstagram } from "react-icons/fi"
+import { IoLogoTwitter } from "react-icons/io"
 
 const Footer = () => {
   return (
@@ -39,10 +39,10 @@ const Footer = () => {
           {" "}
           <FaFacebookF />{" "}
         </a>
-        <a href="https://instagram.com/iigudy" target="_blank">
+        <a href="https://instagram.com/igudy_dev" target="_blank">
           <FiInstagram />
         </a>
-        <a href="https://twitter.com/iigudy" target="_blank">
+        <a href="https://twitter.com/igudy_dev" target="_blank">
           <IoLogoTwitter />
         </a>
       </div>
@@ -51,7 +51,7 @@ const Footer = () => {
         <small>&copy; Igunma Goodness. All rights reserved</small>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
