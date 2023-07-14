@@ -44,7 +44,7 @@ const data = [
     image: IMG9,
     title: "PROMPTSEA",
     github: "https://github.com/igudy/promptsea-nextjs",
-    demo: "#",
+    demo: "https://promptsea-f5c3micvs-igudy.vercel.app/",
     description:
       "The web app is built using Next.js. It utilizes OAuth for authentication and MongoDB for the database. It offers a convenient platform for users to save and manage AI prompts.",
   },
@@ -71,7 +71,7 @@ const data = [
     image: IMG3,
     title: "IGUDY PORTFOLIO WEB APP WITH REACT",
     github: "https://github.com/igudy/igudy-portfolio",
-    demo: "https://promptsea-f5c3micvs-igudy.vercel.app/",
+    demo: "#",
     description:
       "This project was built with Html, CSS, JavaScript, React, React Icons and Javascript libraries - SwiperJS(For Carousels/slides), EmailJs.",
   },
