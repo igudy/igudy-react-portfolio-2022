@@ -71,7 +71,7 @@ const data = [
     image: IMG3,
     title: "IGUDY PORTFOLIO WEB APP WITH REACT",
     github: "https://github.com/igudy/igudy-portfolio",
-    demo: "#",
+    demo: "https://promptsea-f5c3micvs-igudy.vercel.app/",
     description:
       "This project was built with Html, CSS, JavaScript, React, React Icons and Javascript libraries - SwiperJS(For Carousels/slides), EmailJs.",
   },
