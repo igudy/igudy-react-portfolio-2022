@@ -3,13 +3,13 @@ import "./portfolio.css"
 import IMG1 from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.jpg"
+// import IMG4 from "../../assets/portfolio4.jpg"
+// import IMG5 from "../../assets/portfolio5.jpg"
 import IMG6 from "../../assets/portfolio6.jpg"
 import IMG7 from "../../assets/portfolio7.jpg"
 import IMG8 from "../../assets/portfolio8.jpg"
+import IMG9 from "../../assets/portfolio9.png"
 
-// DO NOT USE THE IMAGES IN PRODUCTION
 const data = [
   {
     id: 6,
@@ -38,6 +38,16 @@ const data = [
     description:
       "Landing page for a gym built with React and TypeScript,Framer Motion for animations. Styling is done with Tailwind, providing a clean and responsive layout. ",
   },
+
+  {
+    id: 9,
+    image: IMG9,
+    title: "PROMPTSEA",
+    github: "https://github.com/igudy/promptsea-nextjs",
+    demo: "#",
+    description:
+      "The web app is built using Next.js. It utilizes OAuth for authentication and MongoDB for the database. It offers a convenient platform for users to save and manage AI prompts.",
+  },
   {
     id: 1,
     image: IMG1,
@@ -65,30 +75,6 @@ const data = [
     description:
       "This project was built with Html, CSS, JavaScript, React, React Icons and Javascript libraries - SwiperJS(For Carousels/slides), EmailJs.",
   },
-  // {
-  //   id: 4,
-  //   image: IMG4,
-  //   title: "BURGER BUILDER WEB APP WITH REACT",
-  //   github: "https://github.com/igudy/burger-builder-react",
-  //   demo: "https://react-my-burger-40b37.firebaseapp.com/",
-  //   description:
-  //     "React and Redux were used to build a burger builder application.The app used suitable authentication, validation, and routing implementation using React Router.",
-  // },
-  // {
-  //   id: 5,
-  //   image: IMG5,
-  //   title: "GRAPHIC DESIGN LANDING PAGE",
-  //   github: "https://github.com/igudy/graphics-design-landing-page",
-  //   demo: "https://graphics-design-landing-page.vercel.app/",
-  //   description: "Graphic Design Landing Page built with HTML5, CSS3, Javascript, Bootstrap 4 Framework and Smooth Scroll Library for Scrolling through the Landing Page."
-  // },
-  // {
-  //   id: 6,
-  //   image: IMG6,
-  //   title: 'Crypto Currency Dashboard & Financial Visualization',
-  //   github: "https://github.com",
-  //   demo: "https://dribbble.com/Alien_pixels"
-  // },
 ]
 
 const Portfolio = () => {
