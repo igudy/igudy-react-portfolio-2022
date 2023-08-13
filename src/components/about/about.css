@@ -18,6 +18,15 @@
   place-items: center;
 }
 
+.btn-right {
+  margin-right: 4px;
+}
+
+.small-icon {
+  padding-left: 2px;
+  margin: 0px 4px -2px 0px;
+}
+
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
@@ -105,5 +114,18 @@
 
   .about__content p {
     margin: 1.5rem 0;
+  }
+
+  .btn-right {
+    margin-right: 5px;
+  }
+
+  .small-icon {
+    padding-left: 2px;
+    margin: 0px 4px -2px 0px;
+  }
+
+  .mobile-top {
+    margin-top: 4px;
   }
 }

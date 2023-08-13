@@ -5,6 +5,7 @@ import { FaAward } from "react-icons/fa"
 import { FiUsers } from "react-icons/fi"
 import { VscFolderLibrary } from "react-icons/vsc"
 import { AiFillGithub } from "react-icons/ai"
+import { BsGithub, BsLinkedin } from "react-icons/bs"
 
 const About = () => {
   return (
@@ -44,7 +45,6 @@ const About = () => {
               <small>20+ Completed</small>
             </article>
           </div>
-
           <p>
             Creative software engineer who strongly focuses on developing
             visually appealing and efficient web applications that drive user
@@ -55,6 +55,22 @@ const About = () => {
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
+          </a>{" "}
+          <a
+            href="http://github.com/igudy"
+            download
+            className="btn btn-right"
+            target="_blank"
+          >
+            <BsGithub className="small-icon" />
+            Github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/goodness-igunma-65bb581a7/"
+            className="btn btn-primary btn-right mobile-top"
+          >
+            <BsLinkedin className="small-icon" />
+            LinkedIn
           </a>
         </div>
       </div>
