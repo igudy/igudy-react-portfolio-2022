@@ -18,14 +18,27 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6); */
 
+  /* --color-bg: #014b01;
+  --color-bg-variant: #032911;
+  --color-bg-variantt: rgb(27, 64, 40);
+  --color-primary: #18ce1f;
+  --color-primary-variant: rgba(22, 108, 1, 0.862);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255); */
 
-    --color-bg: #014b01;
-    --color-bg-variant: #032911;
-    --color-bg-variantt:rgb(27, 64, 40);
-    --color-primary: #18ce1f;
-    --color-primary-variant: rgba(22, 108, 1, 0.862);
-    --color-white: #fff;
-    --color-light: rgba(255, 255, 255);
+  --color-bg: #1e1e1e; /* Dark black background */
+  --color-bg-variant: #2c2c2c; /* Slightly lighter black variant */
+  --color-bg-variantt: #333333; /* Even lighter black variant */
+  --color-primary: #f9aa23; /* Green primary color */
+  --color-primary-variant: rgba(
+    22,
+    108,
+    1,
+    0.862
+  ); /* Green primary variant with transparency */
+  --color-white: #fff; /* White color */
+  --color-light: rgba(255, 255, 255, 0.85); /* Light gray for contrast */
+  --color-beautiful-black: #222222; /* Beautiful black color */
 
   --transition: all 400ms ease;
 

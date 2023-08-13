@@ -9,6 +9,7 @@ import IMG6 from "../../assets/portfolio6.jpg"
 import IMG7 from "../../assets/portfolio7.jpg"
 import IMG8 from "../../assets/portfolio8.jpg"
 import IMG9 from "../../assets/portfolio9.png"
+import IMG10 from "../../assets/portfolio10.png"
 
 const data = [
   {
@@ -19,6 +20,15 @@ const data = [
     demo: "https://homes.quickteller.com",
     description:
       "Quickteller Homes is a platform designed to simplify the process of finding and buying homes in Nigeria. It provides a seamless experience for individuals and families seeking to buy or rent properties.",
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: "SHIRT FUSION360",
+    github: "https://github.com/igudy/shirtfusion360",
+    demo: "https://shirtfusion360.vercel.app/",
+    description:
+      "This project uses ThreeJS and React Three Fiber for 3D graphics, TailwindCSS and Framer Motion. Explore loading and customizing 3D models, camera manipulation, and object positioning. Create your own t-shirt model and download the result.",
   },
   {
     id: 7,
