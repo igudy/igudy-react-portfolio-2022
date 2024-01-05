@@ -15,7 +15,7 @@ const Services = () => {
             <h3>
               SOFTWARE ENGINEER <br></br>
               <span className="service__white">
-                RILLE TECHNOLOGIES <br></br>(Nov. 2023 - Present)
+                RILLE <br></br>(Nov. 2023 - Present)
               </span>
             </h3>
           </div>
