@@ -1,17 +1,31 @@
-import React from "react"
-import "./portfolio.css"
-import IMG1 from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-// import IMG4 from "../../assets/portfolio4.jpg"
-// import IMG5 from "../../assets/portfolio5.jpg"
-import IMG6 from "../../assets/portfolio6.jpg"
-import IMG7 from "../../assets/portfolio7.jpg"
-import IMG8 from "../../assets/portfolio8.jpg"
-import IMG9 from "../../assets/portfolio9.png"
-import IMG10 from "../../assets/portfolio10.png"
+import React from "react";
+import "./portfolio.css";
+import IMG1 from "../../assets/portfolio1.jpg";
+import IMG2 from "../../assets/portfolio2.jpg";
+import IMG3 from "../../assets/portfolio3.jpg";
+import IMG6 from "../../assets/portfolio6.jpg";
+import IMG7 from "../../assets/portfolio7.jpg";
+import IMG8 from "../../assets/portfolio8.jpg";
+import IMG9 from "../../assets/portfolio9.png";
+import IMG10 from "../../assets/portfolio10.png";
+
+import Shopiverse from "../../assets/shopiverse.png";
+import ShopiverseAdmin from "../../assets/shopiverse-admin.png";
+import NikeUI from "../../assets/nike-ui.png";
+import MyxelliaAdmin from "../../assets/myxellia-admin.png";
+import Hubeatz from "../../assets/hubeatz.png";
 
 const data = [
+  {
+    id: 11,
+    image: Shopiverse,
+    title: "SHOPIVERSE",
+    github: "https://github.com/igudy/shopiverse",
+    demo: "https://shopiverse-client.vercel.app/",
+    description:
+      "Advanced E-Commerce platform built with the powerful MERN stack (MongoDB, Express.js, React, Node.js). With advanced authentication, state of the art admin dashboard and payment integration. It uses Reat query and redux toolkit for fapi integration and global state management.",
+  },
+
   {
     id: 6,
     image: IMG6,
@@ -20,6 +34,25 @@ const data = [
     demo: "https://homes.quickteller.com",
     description:
       "Quickteller Homes is a platform designed to simplify the process of finding and buying homes in Nigeria. It provides a seamless experience for individuals and families seeking to buy or rent properties.",
+  },
+
+  {
+    id: 13,
+    image: Hubeatz,
+    title: "HUBEATZ",
+    github: "#",
+    demo: "https://hubeatz.com",
+    description:
+      "Worked with a team of engineers to build Hubeatz. I worked on the frontend with Typescript, Next and React Query.",
+  },
+  {
+    id: 12,
+    image: ShopiverseAdmin,
+    title: "SHOPIVERSE ADMIN",
+    github: "https://github.com/igudy/shopiverse",
+    demo: "https://shopiverse-client.vercel.app/admin",
+    description:
+      "Advanced admin dashboard with React, Mongo, Express, Node and React Query for api integrastion.The admin system also make use of Apex Charts for displaying charts.",
   },
   {
     id: 10,
@@ -39,10 +72,11 @@ const data = [
     description:
       "E-commerce web app built with React, Redux Toolkit, and Firebase for authentication and storage.",
   },
+
   {
     id: 8,
     image: IMG8,
-    title: "EVOGYM",
+    title: "EVOGYM(UI ONLY)",
     github: "https://github.com/igudy/gym-typescript",
     demo: "https://evogym-bice.vercel.app/",
     description:
@@ -59,22 +93,12 @@ const data = [
       "The web app is built using Next.js. It utilizes OAuth for authentication and MongoDB for the database. It offers a convenient platform for users to save and manage AI prompts.",
   },
   {
-    id: 1,
-    image: IMG1,
-    title: "MODERN BANK UI WITH REACT & TAILWIND",
-    github: "https://github.com/igudy/modern_bank_ui",
-    demo: "https://modern-bank-ui.vercel.app/",
-    description:
-      "Modern bank ui built with HTML/CSS, Tailwind, React, Typewriter.js & React Reveal(For Animation).",
-  },
-  {
-    id: 2,
-    image: IMG2,
-    title: "NETFLIX CLONE WITH REACT & TAILWIND",
-    github: "https://github.comhttps://github.com/igudy/netflix-clone-react",
-    demo: "https://netflix-clone-react-c9e97.web.app/",
-    description:
-      "Netflix Clone with a Firebase back-end. I utilize the TMDB API(A Movie API) for data and Firebase for authentication & hosting.",
+    id: 14,
+    image: MyxelliaAdmin,
+    title: "Myxellia Admin(UI Only)",
+    github: "https://github.com/igudy/myxellia-admin",
+    demo: "https://myxellia-admin-dashboard.vercel.app/",
+    description: "Myxellia admin page with Next, Typescript and Chakra UI",
   },
   {
     id: 3,
@@ -85,7 +109,34 @@ const data = [
     description:
       "This project was built with Html, CSS, JavaScript, React, React Icons and Javascript libraries - SwiperJS(For Carousels/slides), EmailJs.",
   },
-]
+  {
+    id: 7,
+    image: NikeUI,
+    title: "Nike Ecommerce UI",
+    github: "https://github.com/igudy/e-commerce-nike-store",
+    demo: "https://nike-store-e-commerce-eta.vercel.app/",
+    description:
+      "NIke ecommerce UI with cart system, built with Javascript, React and Redux Toolkit",
+  },
+  {
+    id: 1,
+    image: IMG1,
+    title: "MODERN BANK UI WITH REACT & TAILWIND (UI ONLY)",
+    github: "https://github.com/igudy/modern_bank_ui",
+    demo: "https://modern-bank-ui.vercel.app/",
+    description:
+      "Modern bank ui built with HTML/CSS, Tailwind, React, Typewriter.js & React Reveal(For Animation).",
+  },
+  // {
+  //   id: 2,
+  //   image: IMG2,
+  //   title: "NETFLIX CLONE WITH REACT & TAILWIND(UI ONLY)",
+  //   github: "https://github.comhttps://github.com/igudy/netflix-clone-react",
+  //   demo: "https://netflix-clone-react-c9e97.web.app/",
+  //   description:
+  //     "Netflix Clone with a Firebase back-end. I utilize the TMDB API(A Movie API) for data and Firebase for authentication & hosting.",
+  // },
+];
 
 const Portfolio = () => {
   return (
@@ -121,11 +172,11 @@ const Portfolio = () => {
                 </a>
               </div>
             </article>
-          )
+          );
         })}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

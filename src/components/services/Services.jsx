@@ -1,6 +1,6 @@
-import React from "react"
-import "./services.css"
-import { BiCheck } from "react-icons/bi"
+import React from "react";
+import "./services.css";
+import { BiCheck } from "react-icons/bi";
 
 // This is later changed to work experience
 const Services = () => {
@@ -15,7 +15,69 @@ const Services = () => {
             <h3>
               SOFTWARE ENGINEER <br></br>
               <span className="service__white">
-                INTERSWITCH <br></br>(May. 2022 - Present)
+                RILLE TECHNOLOGIES <br></br>(Nov. 2023 - Present)
+              </span>
+            </h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <p>
+                - Assisted in creating engaging user interfaces, ensuring
+                consistency in design, layout, and functionality across
+                different browsers and devices.
+              </p>
+            </li>
+            <li>
+              <p>
+                - Performed code reviews to encourage quality, reusable, and
+                more efficient code.
+              </p>
+            </li>
+            <li>
+              <p>- I worked with Typescript and NextJs.</p>
+            </li>
+          </ul>
+        </article>
+
+        <article className="service">
+          <div className="service__head">
+            <h3>
+              SOFTWARE ENGINEER (CONTRACT)<br></br>
+              <span className="service__white">
+                GEMSTONE TECHNOLOGIES <br></br>(Sept. 2023 - Nov. 2023)
+              </span>
+            </h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <p>- Actively participated in Agile development processes</p>
+            </li>
+            <li>
+              <p>
+                - Experience with Rest APIs to fetch data and manage state with
+                React Query
+              </p>
+            </li>
+            <p>
+              - Writing unit and functional tests with RTL(React Testing
+              Library) and Jest, thereby continually improving the web
+              application.
+            </p>
+            <li>
+              <p>
+                - Implemented advanced filtering system for the web application
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article className="service">
+          <div className="service__head">
+            <h3>
+              JUNIOR FRONTEND SOFTWARE ENGINEER (CONTRACT)<br></br>
+              <span className="service__white">
+                INTERSWITCH <br></br>(May. 2022 - April 2023)
               </span>
             </h3>
           </div>
@@ -38,19 +100,6 @@ const Services = () => {
                 - Actively participated in Agile development processes (SCRUM,
                 KANBAN, JIRA), including sprint planning, daily stand-ups, and
                 retrospectives.
-              </p>
-            </li>
-            <li>
-              <p>
-                - Worked on existing React codebase to add new features using
-                functional and class-based components.
-              </p>
-            </li>
-            <li>
-              <p>
-                - Writing unit and functional tests with RTL(React Testing
-                Library) and Jest, thereby continually improving the web
-                application.
               </p>
             </li>
           </ul>
@@ -118,7 +167,7 @@ const Services = () => {
         {/* END OF CONTENT CREATION */}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
