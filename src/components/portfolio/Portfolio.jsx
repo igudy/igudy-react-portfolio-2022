@@ -23,7 +23,7 @@ const data = [
     github: "https://github.com/igudy/shopiverse",
     demo: "https://shopiverse-client.vercel.app/",
     description:
-      "Advanced E-Commerce platform built with the powerful MERN stack (MongoDB, Express.js, React, Node.js). With advanced authentication, state of the art admin dashboard and payment integration. It uses Reat query and redux toolkit for fapi integration and global state management.",
+      "Advanced E-Commerce platform built with the powerful MERN stack (MongoDB, Express.js, React, Node.js). With advanced authentication, state of the art admin dashboard and payment integration. It uses Reat query and redux toolkit for API integration and global state management.",
   },
 
   {

@@ -35,7 +35,7 @@ const Services = () => {
               </p>
             </li>
             <li>
-              <p>- I worked with Typescript and NextJs.</p>
+              <p>- Worked with Typescript and NextJs.</p>
             </li>
           </ul>
         </article>
@@ -53,12 +53,6 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <p>- Actively participated in Agile development processes</p>
-            </li>
-            <li>
-              <p>
-                - Experience with Rest APIs to fetch data and manage state with
-                React Query
-              </p>
             </li>
             <p>
               - Writing unit and functional tests with RTL(React Testing
@@ -90,9 +84,12 @@ const Services = () => {
               </p>
             </li>
             <li>
+              <p>- Built some part of the quickteller homes admin dashboard</p>
+            </li>
+            <li>
               <p>
-                - Experience with Rest APIs to fetch data and manage state with
-                Redux Toolkit.
+                - Experience with Rest APIs to fetch data and state management
+                with Redux.
               </p>
             </li>
             <li>
