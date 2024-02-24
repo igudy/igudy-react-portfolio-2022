@@ -83,9 +83,9 @@ const Services = () => {
                 delivering tasks on time, and with excellent quality.
               </p>
             </li>
-            <li>
+            {/* <li>
               <p>- Built some part of the quickteller homes admin dashboard</p>
-            </li>
+            </li> */}
             <li>
               <p>
                 - Experience with Rest APIs to fetch data and state management
