@@ -5,7 +5,7 @@ import { BsLinkedin } from "react-icons/bs"
 
 const HeaderSocials = () => {
   return (
-    <div className="header__socials">
+    <div className="header__socials flex flex-col justify-center gap-3">
       <a href="https://github.com/igudy" target="_blank">
         <BsGithub />
       </a>
@@ -15,8 +15,9 @@ const HeaderSocials = () => {
       >
         <BsLinkedin />
       </a>
+      <div className="h-10 w-[1px] justify-center ml-2 bg-orange-400"></div>
     </div>
-  )
+  );
 }
 
 export default HeaderSocials

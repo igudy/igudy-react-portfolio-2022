@@ -55,32 +55,44 @@ const About = () => {
             </article>
           </div>
           <p>
-            Creative software engineer who strongly focuses on developing
-            visually appealing and efficient web applications that drive user
-            growth and engagement. Highly skilled in translating designs into
-            functional code, and collaborating on solutions with the product and
-            server-side teams to offer the best user experience and build higher
-            customer lifetime value.
+            Creative Software Engineer with over 5 years proven experience in
+            helping business and companies create and maintain a better code
+            base for reusability, scalability, and maintainability. Passionate
+            about learning and development with a desire to apply skills on a
+            larger development team. Eager to tackle more complex problems and
+            continue to find ways to maximise user efficiency and build blazing
+            fast user interfaces.
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>{" "}
+
+          <div className="flex gap-2">
+                     <a href="#contact" className="btn btn-primary">
+            <div className="flex items-center">Let's Talk</div>
+          </a>
+
           <a
             href="http://github.com/igudy"
             download
             className="btn btn-right"
             target="_blank"
           >
-            <BsGithub className="small-icon" />
-            Github
+            <div className="flex items-center">
+              <BsGithub className="small-icon" />
+              Github
+            </div>
           </a>
+
           <a
             href="https://www.linkedin.com/in/goodness-igunma-65bb581a7/"
             className="btn btn-primary btn-right mobile-top"
           >
-            <BsLinkedin className="small-icon" />
-            LinkedIn
+            <div className="flex items-center">
+              <BsLinkedin className="small-icon" />
+              LinkedIn
+            </div>
           </a>
+          </div>
+ 
+
         </div>
       </div>
     </section>

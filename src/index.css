@@ -24,10 +24,10 @@
     124,
     22,
     0.862
-  ); /* Green primary variant with transparency */
-  --color-white: #fff; /* White color */
-  --color-light: rgba(255, 255, 255, 0.85); /* Light gray for contrast */
-  --color-beautiful-black: #222222; /* Beautiful black color */
+  );
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.85);
+  --color-beautiful-black: #222222; 
 
   --transition: all 400ms ease;
 
@@ -71,7 +71,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 
 section > h2,
@@ -133,7 +133,7 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
 }
 
