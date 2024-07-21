@@ -56,7 +56,7 @@ const About = () => {
           </div>
           <p>
             Creative Software Engineer with over 5 years proven experience in
-            helping business and companies create and maintain a better code
+            helping businesses and companies create and maintain a better code
             base for reusability, scalability, and maintainability. Passionate
             about learning and development with a desire to apply skills on a
             larger development team. Eager to tackle more complex problems and
