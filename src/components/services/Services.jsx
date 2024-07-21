@@ -103,7 +103,7 @@ const Services = () => {
         <article className="service">
           <div className="service__head h-[200px] max-h-[200px] ">
             <h3 className="text-2xl font-bold">
-              Junior Front End Engineer <br />
+              Front End Engineer <br />
               <span className="text-light">
                 INTERSWITCH GROUP <br />
                 (May 2022 - April 2023)
@@ -137,7 +137,7 @@ const Services = () => {
         <article className="service">
           <div className="service__head h-[200px] max-h-[200px] ">
             <h3 className="text-2xl font-bold">
-              Software Engineer Intern <br />
+              Software Engineer <br />
               <span className="text-light">
                 CODEZOOMERS NIG. LTD. <br />
                 (Aug. 2019 - Jan. 2020)
