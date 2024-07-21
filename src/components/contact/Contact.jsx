@@ -40,11 +40,11 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <div className="flex justify-center">
+            <div className="flex justify-center flex-wrap">
               <MdOutlineEmail className="contact__option-icon" />
             </div>
             <h4>Email</h4>
-            <h5 className="text-md">goodnessigunma1@gmail.com</h5>
+            <h5>goodnessigunma1@gmail.com</h5>
             <a href="mailto:goodnessigunma1@gmail.com" target="_blank">
               Send a Message
             </a>
@@ -55,7 +55,7 @@ const Contact = () => {
               <RiMessengerLine className="contact__option-icon" />
             </div>
             <h4>Messenger</h4>
-            <h5 className="text-md">Igunma Goodness</h5>
+            <h5>Igunma Goodness</h5>
             <a href="https://m.me/goodness.igudy" target="_blank">
               Send a Message
             </a>
@@ -66,7 +66,7 @@ const Contact = () => {
               <BsWhatsapp className="contact__option-icon" />
             </div>
             <h4>WhatsApp</h4>
-            <h5 className="text-md">+234-81-082-51-426</h5>
+            <h5>+234-81-082-51-426</h5>
             <a href="https://wa.link/jnvn9r" target="_blank">
               Send a Message
             </a>

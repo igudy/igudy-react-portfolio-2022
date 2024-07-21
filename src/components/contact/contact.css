@@ -35,6 +35,10 @@
   display: inline-block;
   font-size: 0.8rem;
 }
+.contact__option h5 {
+  font-size: 0.8rem;
+}
+
 
 /* =================== FORM =================== */
 
