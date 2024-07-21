@@ -12,7 +12,7 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head h-[200px] max-h-[200px]">
-            <h3 className="text-2xl font-bold">
+            <h3 className="text-xl font-bold">
               Senior Front End Software Engineer <br />
               <span className="text-light">
                 STERLING BANK - SEABAAS CORE BANKING <br />
@@ -61,8 +61,8 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head h-[200px] max-h-[200px] ">
-            <h3 className="text-2xl font-bold">
-              Front End Software Engineer <br />
+            <h3 className="text-xl font-bold">
+              Front End Engineer <br />
               <span className="text-light">
                 PETRA SOLUTIONS <br />
                 (June 2023 - Dec 2023)
@@ -102,7 +102,7 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head h-[200px] max-h-[200px] ">
-            <h3 className="text-2xl font-bold">
+            <h3 className="text-xl font-bold">
               Front End Engineer <br />
               <span className="text-light">
                 INTERSWITCH GROUP <br />
@@ -136,7 +136,7 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head h-[200px] max-h-[200px] ">
-            <h3 className="text-2xl font-bold">
+            <h3 className="text-xl font-bold">
               Software Engineer <br />
               <span className="text-light">
                 CODEZOOMERS NIG. LTD. <br />
