@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,25 +15,10 @@
 }
 
 :root {
-  /* --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6); */
-
-  /* --color-bg: #014b01;
-  --color-bg-variant: #032911;
-  --color-bg-variantt: rgb(27, 64, 40);
-  --color-primary: #18ce1f;
-  --color-primary-variant: rgba(22, 108, 1, 0.862);
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255); */
-
-  --color-bg: #1e1e1e; /* Dark black background */
-  --color-bg-variant: #161616; /* Slightly lighter black variant */
-  --color-bg-variantt: #333333; /* Even lighter black variant */
-  --color-primary: #f9aa23; /* Green primary color */
+  --color-bg: #1e1e1e; 
+  --color-bg-variant: #161616; 
+  --color-bg-variantt: #333333;
+  --color-primary: #f9aa23; 
   --color-primary-variant: rgba(
     172,
     124,

@@ -1,11 +1,11 @@
-import React from "react"
-import "./about.css"
-import ME from "../../assets/me_studio.png"
-import { FaAward } from "react-icons/fa"
-import { FiUsers } from "react-icons/fi"
-import { VscFolderLibrary } from "react-icons/vsc"
-import { AiFillGithub } from "react-icons/ai"
-import { BsGithub, BsLinkedin } from "react-icons/bs"
+import React from "react";
+import "./about.css";
+import ME from "../../assets/me_studio.png";
+import { FaAward } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { VscFolderLibrary } from "react-icons/vsc";
+import { AiFillGithub } from "react-icons/ai";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -22,27 +22,36 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
+              <div className="flex justify-center items-center">
+                <FaAward className="about__icon " />
+              </div>
+
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>5+ Years Working</small>
             </article>
 
             <article className="about__card">
-              <AiFillGithub className="about__icon" />
+              <div className="flex justify-center items-center">
+                <AiFillGithub className="about__icon" />
+              </div>
               <h5>Github Repos</h5>
-              <small>50+ Repositories</small>
+              <small>90+ Repositories</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
+              <div className="flex justify-center items-center">
+                <FiUsers className="about__icon" />
+              </div>
               <h5>Clients</h5>
-              <small>10+ Worldwide</small>
+              <small>20+ Worldwide</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
+              <div className="flex justify-center items-center">
+                <VscFolderLibrary className="about__icon" />
+              </div>
               <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <small>30+ Completed</small>
             </article>
           </div>
           <p>
@@ -75,7 +84,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

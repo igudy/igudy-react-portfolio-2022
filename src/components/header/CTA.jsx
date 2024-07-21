@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs"
 
 const CTA = () => {
   return (
-    <div className="cta">
+    <div className="flex justify-center my-3 gap-4">
       <a href={CV} download className="btn">
         Download CV
       </a>
