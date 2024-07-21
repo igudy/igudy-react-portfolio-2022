@@ -11,85 +11,117 @@ const Services = () => {
 
       <div className="container services__container">
         <article className="service">
-          <div className="service__head">
-            <h3>
-              SOFTWARE ENGINEER <br></br>
-              <span className="service__white">
-                RILLE <br></br>(Nov. 2023 - Present)
+          <div className="service__head h-[200px] max-h-[200px]">
+            <h3 className="text-2xl font-bold">
+              Senior Front End Software Engineer <br />
+              <span className="text-light">
+                STERLING BANK - SEABAAS CORE BANKING <br />
+                (Jan 2024 - Present)
               </span>
             </h3>
           </div>
 
-          <ul className="service__list">
+          <ul className="service__list overflow-y-auto max-h-[500px] h-[500px]">
             <li>
               <p>
-                - Assisted in creating engaging user interfaces, ensuring
-                consistency in design, layout, and functionality across
-                different browsers and devices.
+                - Collaborated with the frontend team of the URM(User And Access
+                Module) which was in charge of handling the user and access
+                management for our Core banking application
               </p>
             </li>
             <li>
               <p>
-                - Performed code reviews to encourage quality, reusable, and
-                more efficient code.
+                - Implemented a Maker/Checker based system dashboard which
+                enforces all user activity to be strictly permission based
               </p>
             </li>
             <li>
-              <p>- Worked with Typescript and NextJs.</p>
+              <p>
+                - Review proposed UI and UX designs for technical feasibility by
+                standing as a middle-man while collaborating with back-end and
+                product design teams
+              </p>
+            </li>
+            <li>
+              <p>
+                - Implemented the Transaction-Limit feature which allows
+                permissioned users to set up the maximum amount a bank teller
+                officer can post without seeking for approval
+              </p>
+            </li>
+            <li>
+              <p>
+                - Implemented a Micro Frontend architecture in order to break
+                down our large monolithic codebase into smaller apps, each
+                addressing a specific business vertical
+              </p>
             </li>
           </ul>
         </article>
 
         <article className="service">
-          <div className="service__head">
-            <h3>
-              SOFTWARE ENGINEER (CONTRACT)<br></br>
-              <span className="service__white">
-                GEMSTONE TECHNOLOGIES <br></br>(Sept. 2023 - Nov. 2023)
+          <div className="service__head h-[200px] max-h-[200px] ">
+            <h3 className="text-2xl font-bold">
+              Front End Software Engineer <br />
+              <span className="text-light">
+                PETRA SOLUTIONS <br />
+                (June 2023 - Dec 2023)
               </span>
             </h3>
           </div>
 
-          <ul className="service__list">
-            <li>
-              <p>- Actively participated in Agile development processes</p>
-            </li>
-            <p>
-              - Writing unit and functional tests with RTL(React Testing
-              Library) and Jest, thereby continually improving the web
-              application.
-            </p>
+          <ul className="service__list overflow-y-auto max-h-[500px] h-[500px]">
             <li>
               <p>
-                - Implemented advanced filtering system for the web application
+                - Developed an employee admin page to monitor over 30,000
+                employees, tracking their health status within the company and
+                identifying potential departures.
+              </p>
+            </li>
+            <li>
+              <p>
+                - Utilized React and Firebase technologies to develop and
+                maintain frontend and database functionalities for the web
+                application.
+              </p>
+            </li>
+            <li>
+              <p>
+                - Implemented complex features such as a map feature to track
+                the number of employees in each state in the USA.
+              </p>
+            </li>
+            <li>
+              <p>
+                - Implemented a graph and line chart feature to visualize and
+                track the health status of staff.
               </p>
             </li>
           </ul>
         </article>
+
         <article className="service">
-          <div className="service__head">
-            <h3>
-              JUNIOR FRONTEND SOFTWARE ENGINEER (CONTRACT)<br></br>
-              <span className="service__white">
-                INTERSWITCH <br></br>(May. 2022 - April 2023)
+          <div className="service__head h-[200px] max-h-[200px] ">
+            <h3 className="text-2xl font-bold">
+              Junior Front End Engineer <br />
+              <span className="text-light">
+                INTERSWITCH GROUP <br />
+                (May 2022 - April 2023)
               </span>
             </h3>
           </div>
 
-          <ul className="service__list">
+          <ul className="service__list overflow-y-auto max-h-[500px] h-[500px]">
             <li>
               <p>
                 - Applied pragmatism and best practices in software engineering,
                 delivering tasks on time, and with excellent quality.
               </p>
             </li>
-            {/* <li>
-              <p>- Built some part of the quickteller homes admin dashboard</p>
-            </li> */}
             <li>
               <p>
-                - Experience with Rest APIs to fetch data and state management
-                with Redux.
+                - Experience with Rest APIs to fetch data and manage state with
+                global state management libraries.
               </p>
             </li>
             <li>
@@ -103,50 +135,17 @@ const Services = () => {
         </article>
 
         <article className="service">
-          <div className="service__head">
-            <h3>
-              JUNIOR SOFTWARE ENGINEER <br></br>
-              <span className="service__white">
-                SYBORF BUSINESS VENTURE <br></br>(Oct. 2021 - JAN. 2022)
+          <div className="service__head h-[200px] max-h-[200px] ">
+            <h3 className="text-2xl font-bold">
+              Software Engineer Intern <br />
+              <span className="text-light">
+                CODEZOOMERS NIG. LTD. <br />
+                (Aug. 2019 - Jan. 2020)
               </span>
             </h3>
           </div>
 
-          <ul className="service__list">
-            <li>
-              <p>
-                - Assisted in the creation of engaging user interfaces, ensuring
-                consistency in design, layout, and functionality across
-                different browsers and devices.
-              </p>
-            </li>
-            <li>
-              <p>
-                - Performed code reviews to encourage quality, reusable, and
-                more efficient code.
-              </p>
-            </li>
-            <li>
-              <p>
-                - Translated Figma designs and prototypes into pixel-perfect
-                user interfaces.
-              </p>
-            </li>
-          </ul>
-        </article>
-        {/* END OF WEB DEVELOPMENT */}
-
-        <article className="service">
-          <div className="service__head">
-            <h3>
-              SOFTWARE ENGINEER INTERN <br></br>
-              <span className="service__white">
-                CODEZOOMERS NIG. LTD. <br></br> (Aug. 2019 - Jan. 2020)
-              </span>
-            </h3>
-          </div>
-
-          <ul className="service__list">
+          <ul className="service__list overflow-y-auto max-h-[500px] h-[500px]">
             <li>
               <p>
                 - Developed strong problem-solving abilities, troubleshooting
@@ -161,7 +160,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        {/* END OF CONTENT CREATION */}
+        {/* END OF WEB DEVELOPMENT */}
       </div>
     </section>
   );
